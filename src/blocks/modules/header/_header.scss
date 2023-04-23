@@ -1,0 +1,12 @@
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 88px;
+	max-width: 1440px;
+	background: #fff;
+
+	@media (min-width: 1440px) {
+		background: #f8f8f8;
+	}
+}
